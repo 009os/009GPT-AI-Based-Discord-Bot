@@ -1,0 +1,63 @@
+
+To create a Discord bot and set it up with the necessary permissions, follow these steps:
+
+Step 1: Create a Discord Application
+1. Go to the Discord Developer Portal:
+   - Visit the [Discord Developer Portal](https://discord.com/developers/applications).
+
+2. Create a New Application:
+   - Click on the "New Application" button.
+   - Give your application a name and click "Create".
+
+Step 2: Create a Bot
+1. Navigate to the Bot Section:
+   - In your application settings, click on the "Bot" tab on the left-hand sidebar.
+   - Click on "Add Bot" and confirm by clicking "Yes, do it!".
+
+2. Give the Bot Permissions:
+   - Under the "Bot Permissions" section, select the permissions you want your bot to have. For all text permissions, select:
+     - Read Messages
+     - Send Messages
+     - Manage Messages
+     - Embed Links
+     - Attach Files
+     - Read Message History
+     - Mention Everyone
+     - Use External Emojis
+     - Add Reactions
+
+Step 3: Set Up OAuth2 for Your Bot
+1. Navigate to the OAuth2 Section:
+   - In your application settings, click on the "OAuth2" tab on the left-hand sidebar.
+
+2. Set Up OAuth2 URL Generator:
+   - Under "OAuth2 URL Generator", in the "SCOPES" section, check the boxes for `bot` and `applications.commands`.
+   - In the "BOT PERMISSIONS" section, check the following permissions:
+     - Read Messages/View Channels
+     - Send Messages
+     - Manage Messages
+     - Embed Links
+     - Attach Files
+     - Read Message History
+     - Mention Everyone
+     - Use External Emojis
+     - Add Reactions
+
+3. Generate the OAuth2 URL:
+   - Scroll down and copy the generated URL.
+
+Step 4: Invite Your Bot to a Server
+1. Use the OAuth2 URL:
+   - Open the copied OAuth2 URL in a new browser tab.
+   - Select the server where you want to add the bot.
+   - Authorize the bot by following the prompts.
+
+Summary of the Steps:
+1. Go to [Discord Developer Portal](https://discord.com/developers/applications).
+2. Create a new application.
+3. Add a bot to your application.
+4. Give the bot all text permissions.
+5. Set up OAuth2, select bot permissions, and generate the URL.
+6. Use the URL to invite the bot to your server.
+
+By following these steps, you'll have created a Discord bot, set it up with the necessary permissions, and invited it to your server.
