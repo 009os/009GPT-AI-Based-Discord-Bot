@@ -1,7 +1,6 @@
 import discord
 import os
 import openai
-
 # Read the chat from the file
 file = "chat1.txt"
 with open(file, "r") as f:
